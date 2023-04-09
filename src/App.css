@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.App{
+    /* padding: 100px; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-wrapper{
+    /* padding: 10px; */
+    /* display: inline-block; */
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.exp-cards-container, .header-layout, .proj-cards-container{
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 10px;
+    /* display: inline-block; */
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.user-img {
+
 }
 
-.App-link {
-  color: #61dafb;
+.user-details {
+    padding: 5px;
+    vertical-align: top;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skills-list {
+    display: flex;
+
+}
+
+.skill{
+    border: 1px solid black;
+    margin: 1px;
+    /* padding: 1px; */
+    padding-left:  9px;
+    padding-right: 9px;
+    background-color: aqua;
+}
+
+.card-wrapper{
+
+    width: 20%;
+}
+
+.card-wrapper{
+    padding: 10px;
+}
+
+.experince-layout, .projects-layout{
+    padding: 10px;
 }
